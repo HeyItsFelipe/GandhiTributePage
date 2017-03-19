@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Box-sizing is set to border-box.  This means the width and height
+    properties (and max/min properties) includes content, padding,
+    and border, but not margin. */
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 4px;
+}
+
+li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+figcaption p {
+    margin-bottom: 0px;
+}
+
+img {
+    margin: 2%;
+    width: 184px;
+    height: 476px;
+}
